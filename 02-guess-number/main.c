@@ -44,9 +44,10 @@ int main() {
     else if (guess > secret)
         printf(RED "LESS!\n" RESET);
     else 
-        printf(GREEN "\n CORRECT! Tried: %d \n" RESET, attempts);
+        printf(GREEN "\n CORRECT! Tried: %d times \n" RESET, attempts);
 
   } while (guess != secret);
+
 
   return 0;
 }
